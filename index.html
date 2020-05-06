@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylessheet' href='style.css'>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>Job Application Tracker</title>
 </head>
 <body>
@@ -26,20 +27,18 @@
     <input type='text' name='personContacted' id='personContacted' required>
     <!--Application Status--> 
     <label for='status'>Application Status</label>
-    <input type='text' name='appStatus' id='appStatus'>
+    <input type='text' name='appStatus' id='appStatus' required>
     <!--Level of Interest-->
     <label for='interest'>Level of Interest</label>
     <input type='text' name='levelOfInterest' id='levelOfInterest'>
     </form>
-    <button type="save">Save Job</button>
+    <button type="save" id="saveBtn">Save Job</button>
     
 
 </body>
 
 <script a href="script.js"></script>
-<!-- jQuery library -->
-<script src="js/jquery.min.js"></script>
 
 <!-- jsPDF library -->
-<script src="js/jsPDF/dist/jspdf.min.js"></script>
+
 </html>

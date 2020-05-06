@@ -21,3 +21,8 @@
         
 //     }
 // }
+const form = document.querySelectorAll;
+form.addEventListener("Save", function(event){
+    console.log("Job Saved", form.elements.value);
+    event.preventDefault()
+})
